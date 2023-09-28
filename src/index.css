@@ -1,7 +1,7 @@
 body {
   font-family: sans-serif;
   text-align: left;
-  background-color: #131313;
+  background-color: #f5f5f5;
   color: #F9F9F9;
 }
 /* CSS in App.css */
@@ -16,4 +16,118 @@ body {
 
 .visible {
   display: block;
+}
+
+p{
+  margin: 0 !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.v102_34 {
+  width: 100%;
+  height: 1117px;
+  background: rgba(19,19,19,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.v102_35 {
+  width: 100%;
+  color: rgba(248,248,248,1);
+  position: absolute;
+  top: 56px;
+  left: 8px;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+}
+.v102_36 {
+  width: 100%;
+  height: 48px;
+  /* background: url("../images/v102_36.png"); */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v102_37 {
+  width: 100%;
+  height: 48px;
+  background: rgba(245,245,245,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  box-shadow: 0px 1px 0px rgba(0.824999988079071, 0.824999988079071, 0.824999988079071, 1);
+}
+.v102_38 {
+  width: 100%;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 15px;
+  left: 109px;
+  font-family: Inter;
+  font-weight: Bold;
+  font-size: 14px;
+  opacity: 1;
+  text-align: center;
+}
+.v102_39 {
+  width: 64px;
+  height: 16px;
+  /* background: url("../images/v102_39.png"); */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 16px;
+  left: 15px;
+  overflow: hidden;
+}
+.v102_40 {
+  width: 16px;
+  height: 16px;
+  background: rgba(215,59,59,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-radius: 50%;
+}
+.v102_41 {
+  width: 16px;
+  height: 16px;
+  background: rgba(226,195,34,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 24px;
+  border-radius: 50%;
+}
+.v102_42 {
+  width: 16px;
+  height: 16px;
+  background: rgba(2,201,10,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 48px;
+  border-radius: 50%;
 }
