@@ -4,6 +4,10 @@ body {
   background-color: #f5f5f5;
   color: #F9F9F9;
 }
+
+#terminal{
+  color: rgba(2,201,10,1);
+}
 /* CSS in App.css */
 .line-container {
   display: flex;
@@ -20,6 +24,7 @@ body {
 
 p{
   margin: 0 !important;
+  padding: 0 !important;
 }
 
 * {
@@ -130,4 +135,54 @@ body {
   top: 0px;
   left: 48px;
   border-radius: 50%;
+}
+
+
+.red-color{
+  color: rgba(215,59,59,1);
+}
+
+.dark-blue-color{
+  display: inline-block;
+  color: #3C8EEA;
+}
+
+.light-blue-color{
+  display: inline-block;
+  color: #2BB4D7;
+}
+
+.orange-color{
+  display: inline-block;
+  color: #C78C74;
+}
+
+.yellow-color{
+  display: inline-block;
+  color: #DECA7E;
+}
+
+.green-color{
+  color: rgba(2,201,10,1);
+}
+.border-red{
+  text-align: center;
+  border-width: thin;
+  border-style: solid;
+  display: block;
+  width: 15%;
+  padding: 8px !important;
+  margin: 8px !important;
+  border-color:rgba(215,59,59,1) !important;
+}
+
+.border-green{
+  text-align: center;
+  border-width: thin;
+  border-style: solid;
+  display: block;
+  width: 15%;
+  padding: 8px !important;
+  margin: 8px !important;
+  border-color:rgba(2,201,10,1);
 }
