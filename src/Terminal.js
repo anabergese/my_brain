@@ -60,7 +60,7 @@ function Terminal() {
       }
     }
   }
-}, 40);
+}, 46);
 
     return () => {
       clearInterval(intervalId);
