@@ -107,6 +107,7 @@ body {
   overflow: hidden;
 }
 .v102_40 {
+  font-size: 10px !important;
   width: 16px;
   height: 16px;
   background: rgba(215,59,59,1);
@@ -163,6 +164,7 @@ body {
 }
 
 .green-color{
+  display: inline-block;
   color: rgba(2,201,10,1);
 }
 .border-red{
@@ -185,4 +187,23 @@ body {
   padding: 8px !important;
   margin: 8px !important;
   border-color:rgba(2,201,10,1);
+}
+
+#user-input{
+  display: block;
+    background-color: rgba(19,19,19,1);
+    color:  #F9F9F9;
+    border-color: rgba(2,201,10,1);
+    border-width: thin;
+    width: 10%;
+}
+
+#user-input::placeholder {
+  font-size: 12px;
+}
+
+#user-input:focus {
+  /* Reset or change the styles for focused input here */
+  border-color: rgba(2,201,10,1);
+  outline: none; /* Remove the default focus outline (optional) */
 }
