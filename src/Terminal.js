@@ -88,7 +88,7 @@ function Terminal() {
         type="text"
         id="user-input"
         style={{ display: 'none' }}
-        placeholder="Type your response..."
+        placeholder=""
         onKeyPress={handleUserInput}
       />
     </span>

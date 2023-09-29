@@ -207,3 +207,10 @@ body {
   border-color: rgba(2,201,10,1);
   outline: none; /* Remove the default focus outline (optional) */
 }
+
+@media only screen and (max-width: 600px) {
+  .border-green, .border-red {
+    font-size: 10px !important;
+    width: 30% !important;
+  }
+}
